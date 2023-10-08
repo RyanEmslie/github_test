@@ -1,7 +1,7 @@
 name: JSON API - Issue Form
 description: Submit an issue discovered in JSON API testing
 title: "[JSON API]: "
-labels: ["bug", "JSON API"]
+labels: ["JSON API"]
 assignees:
   - "RyanEmslie"
 body:
@@ -41,12 +41,6 @@ body:
       label: Relevant Error Message
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-    validations:
-      required: true
-  - type: input
-    id: contact
-    attributes:
-      label: Who are you?
     validations:
       required: true
 

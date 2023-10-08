@@ -18,14 +18,16 @@ body:
       description: Also tell us, what did you expect to happen?
     validations:
       required: true
-  - type: checkboxes
-    id: production
+  - type: dropdown
+    id: in_production
     attributes:
-      label: Does this issue exist in Production?
-      description: You may select more than one.
+      label: Does this error appear in production?
       options:
-        - label: "Yes"
-        - label: "No"
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: error_message
     attributes:

@@ -3,19 +3,26 @@ description: Submit an issue discovered in JSON API testing
 title: "[JSON API]: "
 labels: ["bug", "JSON API"]
 assignees:
-  - "reese-allison"
+  - "RyanEmslie"
 body:
   - type: input
     id: url
     attributes:
-      label: Please paste URL where issue occured.
+      label: Please paste URL where issue occurred.
+    validations:
+      required: true
+  - type: input
+    id: app_section
+    attributes:
+      label: What section of the App or Campaign type?
+      description: i.e. Partner Message or Meta Retargeting
     validations:
       required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: Describe the issue?
-      description: Also tell us, what did you expect to happen?
+      label: Describe the issue.
+      description: Also tell us, what did you expect to happen? Attach screenshots if helpful.
     validations:
       required: true
   - type: dropdown
@@ -34,6 +41,8 @@ body:
       label: Relevant Error Message
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+    validations:
+      required: true
   - type: input
     id: contact
     attributes:

@@ -24,10 +24,10 @@ body:
       label: Does this issue exist in Production?
       description: You may select more than one.
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
   - type: textarea
-    id: Error Message
+    id: error_message
     attributes:
       label: Relevant Error Message
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.

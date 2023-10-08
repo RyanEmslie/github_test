@@ -5,10 +5,12 @@ labels: ["bug", "JSON API"]
 assignees:
   - "reese-allison"
 body:
-  - type: markdown
+  - type: input
+    id: url
     attributes:
-      value: |
-        Please describe the issue you have found.
+      label: Please paste URL where issue occured.
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -16,10 +18,18 @@ body:
       description: Also tell us, what did you expect to happen?
     validations:
       required: true
-  - type: textarea
-    id: logs
+  - type: checkboxes
+    id: production
     attributes:
-      label: Relevant log output
+      label: Does this issue exist in Production?
+      description: You may select more than one.
+      options:
+        - label: Yes
+        - label: No
+  - type: textarea
+    id: Error Message
+    attributes:
+      label: Relevant Error Message
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: input

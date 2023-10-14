@@ -32,7 +32,7 @@ body:
 - type: dropdown
   id: customer-impact
   attributes:
-    label: Customer Impact
+    label: "Customer Impact"
     description: What is the level of impact on our clients?
     options:
       - High
@@ -45,7 +45,7 @@ body:
 - type: dropdown
   id: team-impact
   attributes:
-    label: Team Impact
+    label: "Team Impact"
     description: What is the level of impact on our team?
     options:
       - High
@@ -57,7 +57,7 @@ body:
 
 - type: checkboxes
   attributes:
-    label: Does this bug exist in production?
+    label: "Does this bug exist in production?"
     options:
     - label: Yes
       required: true

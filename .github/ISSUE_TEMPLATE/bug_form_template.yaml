@@ -78,10 +78,10 @@ body:
   validations:
     required: false
 
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: "Additional Context"
-      placeholder: "Include any other context or information that could be useful."
-    validations:
-      required: false
+- type: textarea
+  id: additional-context
+  attributes:
+    label: "Additional Context"
+    placeholder: "Include any other context or information that could be useful."
+  validations:
+    required: false

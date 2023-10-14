@@ -62,7 +62,8 @@ body:
     options:
     - label: "Yes"
     - label: "No"
-    validations:
+    default: 2
+  validations:
       required: true
 
 - type: textarea

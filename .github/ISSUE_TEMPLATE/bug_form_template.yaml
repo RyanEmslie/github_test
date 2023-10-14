@@ -6,14 +6,6 @@ projects: 'Feathr/projects/29'
 
 body:
   - type: textarea
-    id: objective
-    attributes:
-      label: "Objective"
-      placeholder: "Clearly state what this bug report aims to achieve."
-    validations:
-      required: true
-
-  - type: textarea
     id: detailed-description
     attributes:
       label: "Detailed Description"
@@ -37,6 +29,39 @@ body:
     validations:
       required: false
 
+    - type: dropdown
+    id: customer-impact
+    attributes:
+      label: Customer Impact
+      description: What is the level of impact on our clients?
+      options:
+        - High
+        - Medium
+        - Low
+      default: 2
+    validations:
+      required: true
+
+    - type: dropdown
+    id: team-impact
+    attributes:
+      label: Team Impact
+      description: What is the level of impact on our team?
+      options:
+        - High
+        - Medium
+        - Low
+      default: 2
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Does this bug exist in production?
+      options:
+      - label: Yes
+        required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -44,14 +69,6 @@ body:
       placeholder: "List the steps to reproduce the behavior."
     validations:
       required: true
-
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: "Acceptance Criteria"
-      placeholder: "List the conditions that signify that the bug has been fixed."
-    validations:
-      required: false
 
   - type: textarea
     id: technical-considerations

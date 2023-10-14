@@ -5,9 +5,6 @@ assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'
 
 body:
-  - type: markdown
-    attributes:
-      value: "## Objective"
   - type: textarea
     id: objective
     attributes:
@@ -16,9 +13,6 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## Detailed Description"
   - type: textarea
     id: detailed-description
     attributes:
@@ -27,9 +21,6 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## Background"
   - type: textarea
     id: background
     attributes:
@@ -38,9 +29,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: "## User Impact"
   - type: textarea
     id: user-impact
     attributes:
@@ -49,9 +37,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: "## Steps to Reproduce"
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -60,9 +45,6 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## Acceptance Criteria"
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -71,9 +53,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: "## Technical Considerations"
   - type: textarea
     id: technical-considerations
     attributes:
@@ -82,9 +61,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: "## Additional Context"
   - type: textarea
     id: additional-context
     attributes:

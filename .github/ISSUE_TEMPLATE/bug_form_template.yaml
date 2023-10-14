@@ -60,6 +60,7 @@ body:
     label: "Does this bug exist in production?"
     options:
     - label: "Yes"
+    - label: "No"
       required: true
 
 - type: textarea

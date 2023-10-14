@@ -2,7 +2,7 @@ name: Bug Report
 description: Use this form to report a bug
 labels: ["bug", "submitted issue"]
 assignees: ["RyanEmslie"]
-projects: 'RyanEmslie/projects/1'
+projects: 'Feathr/projects/29'
 
 body:
   - type: markdown

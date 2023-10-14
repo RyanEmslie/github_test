@@ -20,7 +20,7 @@ body:
       placeholder: "Provide any relevant background information."
     validations:
       required: false
-      
+
   - type: textarea
     id: user-impact
     attributes:

@@ -1,8 +1,10 @@
+---
 name: Bug Report
 about: Standard template for reporting a bug
 title: ''
 labels: 'bug'
 assignees: 'RyanEmslie'
+---
 
 ## Objective
 > Clearly state what this feature aims to achieve.

@@ -1,7 +1,6 @@
-name: Backend Bug Report
-description: Use this form to report a backend bug
-title: "[BUG]: "
-labels: ["bug"]
+name: Bug Report
+description: Use this form to report a bug
+labels: ["bug", "submitted issue"]
 assignees: ["RyanEmslie"]
 
 body:

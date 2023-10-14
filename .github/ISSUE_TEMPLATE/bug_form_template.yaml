@@ -60,8 +60,8 @@ body:
   attributes:
     label: "Does this bug exist in production?"
     options:
-    - label: "Yes"
-    - label: "No"
+    - "Yes"
+    - "No"
     default: 0
   validations:
       required: true

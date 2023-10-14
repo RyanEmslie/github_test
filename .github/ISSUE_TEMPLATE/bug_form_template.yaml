@@ -55,12 +55,14 @@ body:
   validations:
     required: true
 
-- type: checkboxes
+- type: dropdown
+  id: in-production
   attributes:
     label: "Does this bug exist in production?"
     options:
     - label: "Yes"
     - label: "No"
+    validations:
       required: true
 
 - type: textarea

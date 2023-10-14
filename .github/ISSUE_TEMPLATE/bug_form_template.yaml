@@ -62,7 +62,7 @@ body:
     options:
     - label: "Yes"
     - label: "No"
-    default: 2
+    default: 0
   validations:
       required: true
 

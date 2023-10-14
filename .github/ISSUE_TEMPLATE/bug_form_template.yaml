@@ -35,9 +35,9 @@ body:
     label: "Customer Impact"
     description: What is the level of impact on our clients?
     options:
-      - High
-      - Medium
-      - Low
+      - "High"
+      - "Medium"
+      - "Low"
     default: 2
   validations:
     required: true
@@ -48,9 +48,9 @@ body:
     label: "Team Impact"
     description: What is the level of impact on our team?
     options:
-      - High
-      - Medium
-      - Low
+      - "High"
+      - "Medium"
+      - "Low"
     default: 2
   validations:
     required: true

@@ -1,5 +1,5 @@
 ---
-name: Bug Report
+name: Bug Report Template
 about: Standard template for reporting a bug
 title: ''
 labels: 'bug'

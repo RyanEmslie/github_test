@@ -1,6 +1,6 @@
 name: Bug Report Form
 description: Use this form to report a bug
-labels: ["bug", "submitted issue"]
+labels: ["bug", "proposed issue"]
 assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'
 
@@ -52,8 +52,6 @@ body:
       - "Medium"
       - "Low"
     default: 2
-  validations:
-    required: true
 
 - type: dropdown
   id: in-production
@@ -73,14 +71,6 @@ body:
     placeholder: "List the steps to reproduce the behavior."
   validations:
     required: true
-
-- type: textarea
-  id: technical-considerations
-  attributes:
-    label: "Technical Considerations"
-    placeholder: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
-  validations:
-    required: false
 
 - type: textarea
   id: additional-context

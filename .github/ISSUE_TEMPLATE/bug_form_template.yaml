@@ -6,20 +6,20 @@ projects: 'Feathr/projects/29'
 
 body:
 - type: textarea
-  id: detailed-description
-  attributes:
-    label: "Detailed Description"
-    placeholder: "Provide a more detailed description of the bug."
-  validations:
-    required: true
-    
-- type: textarea
   id: background
   attributes:
     label: "Background"
     placeholder: "Provide any relevant background information."
   validations:
     required: false
+
+- type: textarea
+  id: detailed-description
+  attributes:
+    label: "Detailed Description"
+    placeholder: "Provide a more detailed description of the bug."
+  validations:
+    required: true
 
 - type: textarea
   id: user-impact
@@ -51,7 +51,6 @@ body:
       - "High"
       - "Medium"
       - "Low"
-    default: 2
 
 - type: dropdown
   id: in-production

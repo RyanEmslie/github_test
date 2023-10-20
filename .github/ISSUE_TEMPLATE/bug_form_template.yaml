@@ -75,6 +75,6 @@ body:
   id: additional-context
   attributes:
     label: "Additional Context"
-    placeholder: "Include any other context or information that could be useful."
+    placeholder: "Include any other context, information, or screenshots that could be useful."
   validations:
     required: false

@@ -1,4 +1,4 @@
-name: Chore Form
+name: Form - Chore Issue
 description: Use this form to report a chore
 labels: ["chore", "proposed issue"]
 assignees: ["RyanEmslie"]

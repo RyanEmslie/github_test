@@ -41,8 +41,7 @@ body:
   id: acceptance-criteria
   attributes:
     label: "Acceptance Criteria"
-    placeholder: "List the conditions that signify the feature request has been fulfilled."
-" As a [type of user], I want [an action] so that [benefit/value]."
+    placeholder: "List the conditions that signify the feature request has been fulfilled. As a [type of user], I want [an action] so that [benefit/value]."
   validations:
     required: true
 

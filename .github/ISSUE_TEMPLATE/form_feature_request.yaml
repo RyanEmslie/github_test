@@ -1,0 +1,89 @@
+name: Form - Feature Request
+description: Use this form to submit a feature request
+labels: ["enhancement", "proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: objective
+  attributes:
+    label: "Objective"
+    placeholder: "Clearly state what this feature aims to achieve."
+  validations:
+    required: true
+
+- type: textarea
+  id: detailed-description
+  attributes:
+    label: "Detailed Description"
+    placeholder: "Provide a more detailed description of the feature."
+  validations:
+    required: true
+
+- type: textarea
+  id: user-impact
+  attributes:
+    label: "User Impact"
+    placeholder: "Describe how users will benefit from this feature."
+  validations:
+    required: false
+
+- type: textarea
+  id: user-stories
+  attributes:
+    label: "User Stories"
+    placeholder: "List the user stories that this feature aims to fulfill."
+  validations:
+    required: false
+
+- type: textarea
+  id: acceptance-criteria
+  attributes:
+    label: "Acceptance Criteria"
+    placeholder: "List the conditions that signify the feature request has been fulfilled."
+" As a [type of user], I want [an action] so that [benefit/value]."
+  validations:
+    required: true
+
+- type: textarea
+  id: technical-considerations
+  attributes:
+    label: "Technical Considerations"
+    placeholder: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
+  validations:
+    required: false
+
+- type: textarea
+  id: mockups-or-examples
+  attributes:
+    label: "Mockups or Examples"
+    placeholder: "Include any mockups, diagrams, or examples that help illustrate the feature."
+  validations:
+    required: false
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholders"
+    placeholder: "List the people or teams who have a vested interest in the successful completion of this feature."
+  validations:
+    required: false
+
+- type: dropdown
+  id: customer-team-impact
+  attributes:
+    label: "Customer / Team Impact"
+    description: "Specify the impact of this feature."
+    options:
+      - "High"
+      - "Medium"
+      - "Low"
+
+- type: textarea
+  id: additional-context
+  attributes:
+    label: "Additional Context"
+    placeholder: "Include any other context or information that could be useful."
+  validations:
+    required: false

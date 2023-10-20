@@ -1,0 +1,66 @@
+name: Chore Form
+description: Use this form to report a chore
+labels: ["chore", "proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: objective
+  attributes:
+    label: "Objective"
+    placeholder: "State the reason for this chore and what it aims to achieve."
+  validations:
+    required: true
+
+- type: textarea
+  id: detailed-description
+  attributes:
+    label: "Detailed Description"
+    placeholder: "Elaborate on what the chore entails."
+  validations:
+    required: true
+
+- type: textarea
+  id: acceptance-criteria
+  attributes:
+    label: "Acceptance Criteria"
+    placeholder: "List the conditions that signify the chore has been completed successfully."
+  validations:
+    required: true
+
+- type: textarea
+  id: technical-considerations
+  attributes:
+    label: "Technical Considerations"
+    placeholder: "Are there any technical aspects to consider?"
+  validations:
+    required: false
+
+- type: textarea
+  id: dependencies
+  attributes:
+    label: "Dependencies"
+    placeholder: "List any dependencies that this chore has."
+  validations:
+    required: false
+
+- type: dropdown
+  id: team-impact
+  attributes:
+    label: "Team Impact"
+    description: What is the level of impact on our team?
+    options:
+      - "High"
+      - "Medium"
+      - "Low"
+  validations:
+    required: true
+
+- type: textarea
+  id: additional-context
+  attributes:
+    label: "Additional Context"
+    placeholder: "Add any other context or notes you have regarding this chore."
+  validations:
+    required: false

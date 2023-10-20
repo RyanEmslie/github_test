@@ -54,8 +54,6 @@ body:
       - "High"
       - "Medium"
       - "Low"
-  validations:
-    required: true
 
 - type: textarea
   id: additional-context

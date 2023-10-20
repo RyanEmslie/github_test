@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report Form
 description: Use this form to report a bug
 labels: ["bug", "submitted issue"]
 assignees: ["RyanEmslie"]

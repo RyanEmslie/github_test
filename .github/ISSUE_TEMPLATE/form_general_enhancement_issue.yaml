@@ -1,4 +1,4 @@
-name: General Enhancement Form
+name: General Enhancement Issue
 description: Use this form to propose a general enhancement
 labels: ["enhancement", "proposed issue"]
 assignees: ["RyanEmslie"]
@@ -9,7 +9,7 @@ body:
   id: user-story
   attributes:
     label: "User Story"
-    placeholder: "As a user, I want to [...action...] so that I can [...goal/outcome...]"
+    value: "As a user, I want to [...action...] so that I can [...goal/outcome...]"
   validations:
     required: true
 
@@ -17,7 +17,7 @@ body:
   id: background
   attributes:
     label: "Background"
-    placeholder: "What is the current behavior related to this enhancement? How is it insufficient for our users?"
+    description: "What is the current behavior related to this enhancement? How is it insufficient for our users?"
   validations:
     required: true
 
@@ -25,7 +25,7 @@ body:
   id: ideal-solution
   attributes:
     label: "Ideal Solution"
-    placeholder: "What should users be able to do after this enhancement is finished? How does that solution satisfy their unmet needs?"
+    description: "What should users be able to do after this enhancement is finished? How does that solution satisfy their unmet needs?"
   validations:
     required: true
 
@@ -43,6 +43,6 @@ body:
   id: technical-guidance
   attributes:
     label: "Technical Guidance"
-    placeholder: "How should the developer approach this task from a technical perspective?"
+    description: "How should the developer approach this task from a technical perspective?"
   validations:
     required: false

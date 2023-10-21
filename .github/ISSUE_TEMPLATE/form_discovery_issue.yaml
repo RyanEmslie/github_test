@@ -1,4 +1,4 @@
-name: Form - Discovery Issue
+name: Discovery Issue
 description: Use this form to submit a discovery issue
 labels: ["discovery", "proposed issue"]
 assignees: ["RyanEmslie"]

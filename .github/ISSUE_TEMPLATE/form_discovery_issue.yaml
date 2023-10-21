@@ -1,0 +1,79 @@
+name: Form - Discovery Issue
+description: Use this form to submit a discovery issue
+labels: ["discovery", "proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: objective
+  attributes:
+    label: "Objective"
+    placeholder: "Briefly describe what this discovery issue aims to achieve."
+  validations:
+    required: true
+
+- type: textarea
+  id: background
+  attributes:
+    label: "Background"
+    placeholder: "Provide any background information that would help in the discovery process."
+  validations:
+    required: false
+
+- type: textarea
+  id: scope
+  attributes:
+    label: "Scope"
+    placeholder: "Define the scope of this discovery. What is in scope and what is out of scope?"
+  validations:
+    required: true
+
+- type: textarea
+  id: questions-to-answer
+  attributes:
+    label: "Questions to Answer"
+    placeholder: "List the questions that this discovery aims to answer."
+  validations:
+    required: true
+
+- type: textarea
+  id: findings
+  attributes:
+    label: "Findings"
+    placeholder: "Describe the findings of this discovery phase."
+  validations:
+    required: false
+
+- type: textarea
+  id: acceptance-criteria
+  attributes:
+    label: "Acceptance Criteria"
+    description: "List the conditions that signify this discovery is complete."
+    value: "```[tasklist]\n## Acceptance Criteria\n- [ ] All discovery questions have been answered.\n- [ ] Any discrepancies or issues are well-documented.\n- [ ] A summary of the findings has been shared with the stakeholders.\n- [ ] Additional criterion\n```"
+  validations:
+    required: true
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholder(s)"
+    placeholder: "Who decides the Acceptance Criteria has been met."
+  validations:
+    required: false
+
+- type: textarea
+  id: resources
+  attributes:
+    label: "Resources"
+    placeholder: "List any resources that could aid in the discovery process."
+  validations:
+    required: false
+
+- type: textarea
+  id: related-issues
+  attributes:
+    label: "Related Issues"
+    placeholder: "Link to any related issues or discovery phases."
+  validations:
+    required: false

@@ -81,6 +81,8 @@ body:
   attributes:
     label: "Proposed Solution"
     description: "Outline the suggested approach or solution for addressing the issue.
+  validations:
+    required: false
 
 - type: textarea
   id: additional-context

@@ -1,0 +1,48 @@
+name: General Enhancement Form
+description: Use this form to propose a general enhancement
+labels: ["enhancement", "proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: user-story
+  attributes:
+    label: "User Story"
+    placeholder: "As a user, I want to [...action...] so that I can [...goal/outcome...]"
+  validations:
+    required: true
+
+- type: textarea
+  id: background
+  attributes:
+    label: "Background"
+    placeholder: "What is the current behavior related to this enhancement? How is it insufficient for our users?"
+  validations:
+    required: true
+
+- type: textarea
+  id: ideal-solution
+  attributes:
+    label: "Ideal Solution"
+    placeholder: "What should users be able to do after this enhancement is finished? How does that solution satisfy their unmet needs?"
+  validations:
+    required: true
+
+- type: checkboxes
+  id: acceptance-criteria
+  attributes:
+    label: "Acceptance Criteria"
+    options:
+      - label: "User can see blah"
+      - label: "User can click bleh"
+  validations:
+    required: true
+
+- type: textarea
+  id: technical-guidance
+  attributes:
+    label: "Technical Guidance"
+    placeholder: "How should the developer approach this task from a technical perspective?"
+  validations:
+    required: false

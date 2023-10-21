@@ -1,0 +1,24 @@
+name: Generic Development Task
+description: Use this form to provide a summary and list the requirements for the issue
+labels: ["proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: summary
+  attributes:
+    label: "Summary"
+    placeholder: "Summary of issue/problem/need. Include relevant customer context, current state description, and proposed solution summary."
+  validations:
+    required: true
+
+- type: checkboxes
+  id: requirements
+  attributes:
+    label: "Requirements"
+    options:
+      - label: "User can see blah"
+      - label: "[Thing] does [function]"
+  validations:
+    required: true

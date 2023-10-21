@@ -75,6 +75,6 @@ body:
   id: related-issues
   attributes:
     label: "Related Issues"
-    placeholder: "Link to any related issues or discovery phases."
+    description: "Link to any related issues or discovery phases."
   validations:
     required: false

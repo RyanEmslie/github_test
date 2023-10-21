@@ -1,24 +1,31 @@
-name: Generic Development Task
-description: Use this form to provide a summary and list the requirements for the issue
+name: General Development Task
+description: Use this form to provide a description of the development task and list the requirements
 labels: ["proposed issue"]
 assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'
 
 body:
 - type: textarea
-  id: summary
+  id: detailed_description
   attributes:
-    label: "Summary"
-    placeholder: "Summary of issue/problem/need. Include relevant customer context, current state description, and proposed solution summary."
+    label: "Detailed Description"
+    placeholder: "Provide a detailed description of the task that has been identified."
   validations:
     required: true
 
-- type: checkboxes
-  id: requirements
+- type: textarea
+  id: acceptance-criteria
   attributes:
-    label: "Requirements"
-    options:
-      - label: "User can see blah"
-      - label: "[Thing] does [function]"
+    label: "Acceptance Criteria"
+    description: "List the conditions that signify the feature request has been fulfilled."
+    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
   validations:
     required: true
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholders"
+    description: "List the people or teams who have a vested interest in the successful completion of this feature."
+  validations:
+    required: false

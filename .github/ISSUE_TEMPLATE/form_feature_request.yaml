@@ -34,7 +34,7 @@ body:
   attributes:
     label: "User Stories"
     description: "List the user stories that this feature aims to fulfill."
-    placeholder: "- [ ] As a [type of user], I want [an action] so that [benefit/value].\n- [ ] As a [type of user], I want [an action] so that [benefit/value].\- [ ] As a [type of user], I want [an action] so that [benefit/value]."
+    placeholder: "- [ ] As a [type of user], I want [an action] so that [benefit/value].\n- [ ] As a [type of user], I want [an action] so that [benefit/value].\n- [ ] As a [type of user], I want [an action] so that [benefit/value]."
   validations:
     required: false
 

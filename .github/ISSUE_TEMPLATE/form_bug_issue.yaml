@@ -80,7 +80,7 @@ body:
   id: proposed_solution
   attributes:
     label: "Proposed Solution"
-    description: "Outline the suggested approach or solution for addressing the issue.
+    description: "Outline the suggested approach or solution for addressing the issue."
   validations:
     required: false
 

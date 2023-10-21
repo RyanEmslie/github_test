@@ -35,9 +35,9 @@ body:
     label: "Customer Impact"
     description: What is the level of impact on our clients?
     options:
-      - "High"
-      - "Medium"
       - "Low"
+      - "Medium"
+      - "High"
   validations:
     required: true
 

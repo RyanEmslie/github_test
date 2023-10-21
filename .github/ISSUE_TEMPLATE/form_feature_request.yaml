@@ -1,4 +1,4 @@
-name: Form - Feature Request
+name: Feature Request
 description: Use this form to submit a feature request
 labels: ["enhancement", "proposed issue"]
 assignees: ["RyanEmslie"]
@@ -9,7 +9,7 @@ body:
   id: objective
   attributes:
     label: "Objective"
-    placeholder: "Clearly state what this feature aims to achieve."
+    description: "Clearly state what this feature aims to achieve."
   validations:
     required: true
 
@@ -17,7 +17,7 @@ body:
   id: detailed-description
   attributes:
     label: "Detailed Description"
-    placeholder: "Provide a more detailed description of the feature."
+    description: "Provide a more detailed description of the feature."
   validations:
     required: true
 
@@ -25,7 +25,7 @@ body:
   id: user-impact
   attributes:
     label: "User Impact"
-    placeholder: "Describe how users will benefit from this feature."
+    description: "Describe how users will benefit from this feature."
   validations:
     required: false
 
@@ -33,7 +33,8 @@ body:
   id: user-stories
   attributes:
     label: "User Stories"
-    placeholder: "List the user stories that this feature aims to fulfill."
+    description: "List the user stories that this feature aims to fulfill."
+    placeholder: "- [ ] As a [type of user], I want [an action] so that [benefit/value].\n- [ ] As a [type of user], I want [an action] so that [benefit/value].\- [ ] As a [type of user], I want [an action] so that [benefit/value]."
   validations:
     required: false
 
@@ -41,7 +42,8 @@ body:
   id: acceptance-criteria
   attributes:
     label: "Acceptance Criteria"
-    placeholder: "List the conditions that signify the feature request has been fulfilled. As a [type of user], I want [an action] so that [benefit/value]."
+    description: "List the conditions that signify the feature request has been fulfilled."
+    value:"- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
   validations:
     required: true
 
@@ -49,7 +51,7 @@ body:
   id: technical-considerations
   attributes:
     label: "Technical Considerations"
-    placeholder: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
+    description: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
   validations:
     required: false
 
@@ -57,7 +59,7 @@ body:
   id: mockups-or-examples
   attributes:
     label: "Mockups or Examples"
-    placeholder: "Include any mockups, diagrams, or examples that help illustrate the feature."
+    description: "Include any mockups, diagrams, or examples that help illustrate the feature."
   validations:
     required: false
 
@@ -65,7 +67,7 @@ body:
   id: stakeholders
   attributes:
     label: "Stakeholders"
-    placeholder: "List the people or teams who have a vested interest in the successful completion of this feature."
+    description: "List the people or teams who have a vested interest in the successful completion of this feature."
   validations:
     required: false
 
@@ -83,6 +85,6 @@ body:
   id: additional-context
   attributes:
     label: "Additional Context"
-    placeholder: "Include any other context or information that could be useful."
+    description: "Include any other context or information that could be useful."
   validations:
     required: false

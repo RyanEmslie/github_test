@@ -58,8 +58,8 @@ body:
   id: stakeholders
   attributes:
     label: "Stakeholder(s)"
-    description: "Who decides the Acceptance Criteria has been met."
-    placeholder: "@moonryay @reese-allison @thephysicsriot @abhaykhu
+    description: "Who decides the Acceptance Criteria have been met."
+    placeholder: "@moonryay @reese-allison @thephysicsriot @abhaykhu"
   validations:
     required: false
 

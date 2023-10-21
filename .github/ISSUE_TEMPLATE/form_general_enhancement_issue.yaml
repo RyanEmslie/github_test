@@ -29,20 +29,27 @@ body:
   validations:
     required: true
 
-- type: checkboxes
+- type: textarea
   id: acceptance-criteria
   attributes:
     label: "Acceptance Criteria"
-    options:
-      - label: "User can see blah"
-      - label: "User can click bleh"
+    description: "List the conditions that signify the feature request has been fulfilled."
+    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
   validations:
     required: true
 
 - type: textarea
-  id: technical-guidance
+  id: technical-considerations
   attributes:
-    label: "Technical Guidance"
-    description: "How should the developer approach this task from a technical perspective?"
+    label: "Technical Considerations"
+    description: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
+  validations:
+    required: false
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholders"
+    description: "List the people or teams who have a vested interest in the successful completion of this feature."
   validations:
     required: false

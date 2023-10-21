@@ -25,7 +25,8 @@ body:
   id: acceptance-criteria
   attributes:
     label: "Acceptance Criteria"
-    placeholder: "List the conditions that signify the chore has been completed successfully. \n- [ ] All listed tasks are completed.\n- [ ] All user stories meet their acceptance criteria.\n- [ ] Feature has been documented and communicated."
+    placeholder: "List the conditions that signify the chore has been completed successfully."
+    value: "- [ ] All listed tasks are completed.\n- [ ] All user stories meet their acceptance criteria.\n- [ ] Feature has been documented and communicated."
   validations:
     required: true
 

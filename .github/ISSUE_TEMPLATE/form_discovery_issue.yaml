@@ -9,7 +9,7 @@ body:
   id: objective
   attributes:
     label: "Objective"
-    placeholder: "Briefly describe what this discovery issue aims to achieve."
+    description: "Briefly describe what this discovery issue aims to achieve."
   validations:
     required: true
 
@@ -17,7 +17,7 @@ body:
   id: background
   attributes:
     label: "Background"
-    placeholder: "Provide any background information that would help in the discovery process."
+    description: "Provide any background information that would help in the discovery process."
   validations:
     required: false
 
@@ -25,7 +25,7 @@ body:
   id: scope
   attributes:
     label: "Scope"
-    placeholder: "Define the scope of this discovery. What is in scope and what is out of scope?"
+    description: "Define the scope of this discovery. What is in scope and what is out of scope?"
   validations:
     required: true
 
@@ -33,7 +33,7 @@ body:
   id: questions-to-answer
   attributes:
     label: "Questions to Answer"
-    placeholder: "List the questions that this discovery aims to answer."
+    description: "List the questions that this discovery aims to answer."
   validations:
     required: true
 
@@ -67,7 +67,7 @@ body:
   id: resources
   attributes:
     label: "Resources"
-    placeholder: "List any resources that could aid in the discovery process."
+    description: "List any resources that could aid in the discovery process."
   validations:
     required: false
 

@@ -18,8 +18,8 @@ body:
   attributes:
     label: "Detailed Description"
       placeholder: |
-      "Provide a more detailed description of the bug.
-      Include steps to reproduce, expected vs. actual behavior, etc."
+        "Provide a more detailed description of the bug.
+        Include steps to reproduce, expected vs. actual behavior, etc."
   validations:
     required: true
 

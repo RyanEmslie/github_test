@@ -67,7 +67,8 @@ body:
   id: steps-to-reproduce
   attributes:
     label: "Steps to Reproduce"
-    placeholder: "List the steps to reproduce the behavior."
+    description: "List the steps to reproduce the behavior."
+    value: "1. \n2. \n3"
   validations:
     required: true
 

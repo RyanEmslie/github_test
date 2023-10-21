@@ -41,7 +41,7 @@ body:
   id: findings
   attributes:
     label: "Findings"
-    placeholder: "Describe the findings of this discovery phase."
+    description: "Describe how the findings of this discovery phase should be delivered, e.g., detailed comments on issue, a proof-of-concept PR, etc."
   validations:
     required: false
 
@@ -50,7 +50,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "List the conditions that signify this discovery is complete."
-    value: "```[tasklist]\n## Acceptance Criteria\n- [ ] All discovery questions have been answered.\n- [ ] Any discrepancies or issues are well-documented.\n- [ ] A summary of the findings has been shared with the stakeholders.\n- [ ] Additional criterion\n```"
+    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
   validations:
     required: true
 
@@ -58,7 +58,8 @@ body:
   id: stakeholders
   attributes:
     label: "Stakeholder(s)"
-    placeholder: "Who decides the Acceptance Criteria has been met."
+    description: "Who decides the Acceptance Criteria has been met."
+    placeholder: "@moonryay @reese-allison @thephysicsriot @abhaykhu
   validations:
     required: false
 

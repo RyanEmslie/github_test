@@ -23,10 +23,10 @@ body:
 - type: textarea
   id: background
   attributes:
-    label: "Background"
+    label: "Background Information"
     description: "Provide any background information that could help understand the scope and context of this epic."
   validations:
-    required: false
+    required: ture
 
 - type: textarea
   id: background-problem
@@ -34,7 +34,7 @@ body:
     label: "Background Problem"
     description: "Describe the background problem."
   validations:
-    required: false
+    required: true
 
 - type: textarea
   id: case
@@ -50,7 +50,7 @@ body:
     label: "Solution"
     description: "Broad parameters of the solution."
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: open-questions
@@ -65,8 +65,9 @@ body:
   attributes:
     label: "User Stories"
     description: "List the user stories that make up this epic, if applicable."
+    value: "- [ ] As a [type of user], I want [an action] so that [benefit/value]."
   validations:
-    required: false
+    required: true
 
 - type: textarea
   id: tasks
@@ -82,6 +83,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "Criteria that must be fulfilled for the epic to be considered complete."
+    values: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3" 
   validations:
     required: true
 

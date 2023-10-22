@@ -94,3 +94,27 @@ body:
     description: "The measurable way in which this feature will improve the lives of customers."
   validations:
     required: false
+
+- type: textarea
+  id: deployment
+  attributes:
+    label: "Deployment"
+    description: "How this feature should be deployed, feature flags, product tier, etc."
+  validations:
+    required: false
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholders"
+    description: "List the people who have a vested interest in the successful completion of this epic."
+  validations:
+    required: false
+
+- type: textarea
+  id: additional-context
+  attributes:
+    label: "Additional Context"
+    description: "Include any additional notes, links, or anything else that should be known about this epic."
+  validations:
+    required: false

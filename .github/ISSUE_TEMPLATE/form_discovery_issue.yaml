@@ -1,5 +1,5 @@
 name: Discovery Issue
-description: Use this form to submit a discovery issue
+description: Use this form to propose a discovery issue
 labels: ["discovery", "proposed issue"]
 assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'

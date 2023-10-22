@@ -1,5 +1,5 @@
-name: Design Issue Form
-description: Use this form to describe design-related issues
+name: Design Issue
+description: Use this form to propose a design-related issue
 labels: ["ui changes", "proposed issue"]
 assignees: ["abhaykhu"]
 projects: 'Feathr/projects/29'

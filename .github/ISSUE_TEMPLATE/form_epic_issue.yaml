@@ -26,7 +26,7 @@ body:
     label: "Background Information"
     description: "Provide any background information that could help understand the scope and context of this epic."
   validations:
-    required: ture
+    required: true
 
 - type: textarea
   id: background-problem
@@ -56,7 +56,7 @@ body:
   id: open-questions
   attributes:
     label: "Open Questions"
-    description: "Anything that is still unclear and needs further discovery and decision making by the working pod."
+    description: "Anything that is still unclear and needs further discovery and decision-making by the working pod."
   validations:
     required: false
 
@@ -83,7 +83,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "Criteria that must be fulfilled for the epic to be considered complete."
-    values: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3" 
+    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3" 
   validations:
     required: true
 

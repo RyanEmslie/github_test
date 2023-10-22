@@ -1,5 +1,5 @@
 name: General Development Task
-description: Use this form to provide a description of the development task and list the requirements
+description: Use this form to propose a general development task
 labels: ["proposed issue"]
 assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'
@@ -9,7 +9,7 @@ body:
   id: detailed_description
   attributes:
     label: "Detailed Description"
-    placeholder: "Provide a detailed description of the task that has been identified."
+    description: "Provide a detailed description of the task that has been identified."
   validations:
     required: true
 

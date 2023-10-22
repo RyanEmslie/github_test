@@ -1,5 +1,5 @@
-name: Form - Chore Issue
-description: Use this form to report a chore
+name: Chore Issue
+description: Use this form to propose a chore
 labels: ["chore", "proposed issue"]
 assignees: ["RyanEmslie"]
 projects: 'Feathr/projects/29'

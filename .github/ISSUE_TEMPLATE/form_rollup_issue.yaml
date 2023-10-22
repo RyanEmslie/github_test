@@ -1,0 +1,80 @@
+name: Roll-Up Issue
+description: Use this form to propose a roll-up of related issues
+labels: ["roll-up", "proposed issue"]
+assignees: ["RyanEmslie"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: background_problem
+  attributes:
+    label: "Background Problem"
+    description: "Provide the background problem."
+  validations:
+    required: true
+
+- type: textarea
+  id: case_example
+  attributes:
+    label: "Case"
+    description: "Provide an example of the problem."
+  validations:
+    required: true
+
+- type: textarea
+  id: solution
+  attributes:
+    label: "Solution"
+    description: "Describe the broad parameters of the solution."
+  validations:
+    required: true
+
+- type: textarea
+  id: open_questions
+  attributes:
+    label: "Open Questions"
+    description: "List any questions that are still unclear and need further discovery."
+  validations:
+    required: false
+
+- type: textarea
+  id: success_metrics
+  attributes:
+    label: "Success Metrics"
+    description: "Define the measurable way this feature will benefit the customers."
+  validations:
+    required: false
+
+- type: textarea
+  id: requirements
+  attributes:
+    label: "Requirements"
+    description: "Outline each requirement. List them in a sequence representing priority and technical sense."
+    placeholder: "Each requirement is outlined below..."
+  validations:
+    required: true
+
+- type: textarea
+  id: acceptance-criteria
+  attributes:
+    label: "Acceptance Criteria"
+    description: "List the conditions that signify the feature request has been fulfilled."
+    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+  validations:
+    required: true
+
+- type: textarea
+  id: deployment
+  attributes:
+    label: "Deployment"
+    description: "Detail how this issues should be deployed, i.e. deploy to featur branch, specific merge order."
+  validations:
+    required: true
+
+- type: textarea
+  id: stakeholders
+  attributes:
+    label: "Stakeholders"
+    description: "List the people or teams who have a vested interest in the successful completion of this feature."
+  validations:
+    required: false

@@ -1,0 +1,39 @@
+name: Design Issue Form
+description: Use this form to describe design-related issues
+labels: ["ui changes", "proposed issue"]
+assignees: ["abhaykhu"]
+projects: 'Feathr/projects/29'
+
+body:
+- type: textarea
+  id: background-problem
+  attributes:
+    label: "Background Problem"
+    description: "Briefly describe the problem/context behind the design task."
+  validations:
+    required: true
+
+- type: textarea
+  id: proposed-solution
+  attributes:
+    label: "Proposed Solution"
+    description: "List the high-level proposed design solution to the problem."
+  validations:
+    required: true
+
+- type: textarea
+  id: requirements
+  attributes:
+    label: "Requirements"
+    description: "Describe the requirements for this design task."
+    value: "- [ ] In [location], user can [acceptance criteria]\n  - [ ] Component type: button, stat card, table, etc.\n  - [ ] Available actions: click, etc.\n  - [ ] Upon [action]: [resulting action]"
+  validations:
+    required: true
+
+- type: textarea
+  id: inspo
+  attributes:
+    label: "Inspiration"
+    description: "Provide any design inspirations or references."
+  validations:
+    required: false

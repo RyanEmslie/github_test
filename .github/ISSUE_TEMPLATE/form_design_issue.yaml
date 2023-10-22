@@ -26,7 +26,7 @@ body:
   attributes:
     label: "Requirements"
     description: "Describe the requirements for this design task."
-    value: "- [ ] In [location], user can [acceptance criteria]\n  - [ ] Component type: button, stat card, table, etc.\n  - [ ] Available actions: click, etc.\n  - [ ] Upon [action]: [resulting action]"
+    value: "- [ ] In <location>, user can <acceptance criteria>\n- [ ] Component type: <button, stat card, table, etc.>\n- [ ] Available actions: <click, etc.>\n- [ ] Upon <action>: <resulting action>"
   validations:
     required: true
 

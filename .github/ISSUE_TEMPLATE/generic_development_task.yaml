@@ -1,4 +1,4 @@
-name: General Development Task
+name: Development Task
 description: Use this form to propose a general development task
 labels: ["proposed issue"]
 assignees: ["RyanEmslie"]

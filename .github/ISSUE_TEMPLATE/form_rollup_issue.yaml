@@ -56,6 +56,14 @@ body:
     required: true
 
 - type: textarea
+  id: relevant_dependencies
+  attributes:
+    label: "Relevant Dependencies"
+    description: "Include any relevant dependencies, i.e. issues, pull requests, branches."
+  validations:
+    required: false
+
+- type: textarea
   id: stakeholders
   attributes:
     label: "Stakeholders"

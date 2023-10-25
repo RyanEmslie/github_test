@@ -34,7 +34,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "List the conditions that signify the feature request has been fulfilled."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+    value: "- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>\n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>"
   validations:
     required: true
 
@@ -43,6 +43,14 @@ body:
   attributes:
     label: "Technical Considerations"
     description: "Describe any technical considerations like architecture changes, dependencies, or database modifications."
+  validations:
+    required: false
+
+- type: textarea
+  id: relevant_dependencies
+  attributes:
+    label: "Relevant Dependencies"
+    description: "Include any relevant dependencies, i.e. issues, pull requests, branches."
   validations:
     required: false
 

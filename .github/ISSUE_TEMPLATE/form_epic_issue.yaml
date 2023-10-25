@@ -1,6 +1,7 @@
 name: Epic Issue
 description: Use this form to create an epic
-labels: ['epic', 'proposed epic']
+assignees: ["RyanEmslie"]
+labels: ['epic', 'proposed issue']
 projects: 'Feathr/projects/29'
 
 body:
@@ -83,7 +84,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "Criteria that must be fulfilled for the epic to be considered complete."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3" 
+    value: "- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>\n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>\n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>" 
   validations:
     required: true
 

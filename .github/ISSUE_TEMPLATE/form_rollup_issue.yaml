@@ -43,7 +43,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "List the conditions that signify the feature request has been fulfilled."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+    value: "- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>\n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>\n- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>"
   validations:
     required: true
 

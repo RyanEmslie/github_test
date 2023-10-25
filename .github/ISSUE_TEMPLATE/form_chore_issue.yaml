@@ -26,7 +26,7 @@ body:
   attributes:
     label: "Acceptance Criteria"
     description: "List the conditions that signify that the chore has been completed successfully."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+    value: "- [ ] <some given context or precondition>, <when I take this action>, <then this will be the result>"
   validations:
     required: true
 
@@ -39,27 +39,17 @@ body:
     required: false
 
 - type: textarea
-  id: dependencies
-  attributes:
-    label: "Dependencies"
-    placeholder: "List any dependencies that this chore has."
-  validations:
-    required: false
-
-- type: dropdown
-  id: team-impact
-  attributes:
-    label: "Team Impact"
-    description: What is the level of impact on our team?
-    options:
-      - "High"
-      - "Medium"
-      - "Low"
-
-- type: textarea
   id: additional-context
   attributes:
     label: "Additional Context"
     placeholder: "Add any other context or notes you have regarding this chore."
+  validations:
+    required: false
+
+- type: textarea
+  id: relevant_dependencies
+  attributes:
+    label: "Relevant Dependencies"
+    description: "Include any relevant dependencies, i.e. issues, pull requests, branches."
   validations:
     required: false

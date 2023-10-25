@@ -14,10 +14,10 @@ body:
     required: true
 
 - type: textarea
-  id: acceptance-criteria
+  id: task_requirements
   attributes:
-    label: "Acceptance Criteria"
-    description: "List the conditions that signify the feature request has been fulfilled."
+    label: "Task Requirements"
+    description: "List the conditions that signify the task has been fulfilled."
     value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
   validations:
     required: true
@@ -28,4 +28,4 @@ body:
     label: "Stakeholders"
     description: "List the people or teams who have a vested interest in the successful completion of this feature."
   validations:
-    required: false
+    required: true

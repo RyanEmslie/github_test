@@ -51,7 +51,7 @@ body:
   id: deployment
   attributes:
     label: "Deployment"
-    description: "Detail how this issues should be deployed, i.e. deploy to featur branch, specific merge order."
+    description: "Detail how this issues should be deployed, i.e. deploy to feature branch, specific merge order."
   validations:
     required: true
 

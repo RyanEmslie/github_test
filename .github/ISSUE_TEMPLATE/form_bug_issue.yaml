@@ -91,3 +91,11 @@ body:
     description: "Include any other context, information, or screenshots that could be useful."
   validations:
     required: false
+
+- type: textarea
+  id: relevant_dependencies
+  attributes:
+    label: "Relevant Dependencies"
+    description: "Include any relevant dependencies, i.e. issues, pull requests, branches."
+  validations:
+    required: false

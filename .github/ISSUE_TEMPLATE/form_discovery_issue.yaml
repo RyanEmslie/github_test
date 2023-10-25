@@ -46,15 +46,6 @@ body:
     required: false
 
 - type: textarea
-  id: acceptance-criteria
-  attributes:
-    label: "Acceptance Criteria"
-    description: "List the conditions that signify this discovery is complete."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
-  validations:
-    required: true
-
-- type: textarea
   id: stakeholders
   attributes:
     label: "Stakeholder(s)"

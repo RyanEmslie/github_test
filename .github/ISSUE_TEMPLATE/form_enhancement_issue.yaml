@@ -22,14 +22,6 @@ body:
     required: true
 
 - type: textarea
-  id: ideal-solution
-  attributes:
-    label: "Ideal Solution"
-    description: "What should users be able to do after this enhancement is finished? How does that solution satisfy their unmet needs?"
-  validations:
-    required: true
-
-- type: textarea
   id: acceptance-criteria
   attributes:
     label: "Acceptance Criteria"

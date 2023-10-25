@@ -17,8 +17,8 @@ body:
   id: task_requirements
   attributes:
     label: "Task Requirements"
-    description: "List the conditions that signify the task has been fulfilled."
-    value: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+    description: "List the requirements that signify the task has been fulfilled."
+    value: "- [ ] Requirement 1\n- [ ] Requirement 2\n- [ ] Requirement 3"
   validations:
     required: true
 
